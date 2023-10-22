@@ -64,7 +64,7 @@ function Footer(){
             <div className="footer-copyright">
             <hr/>
             <p>&copy; 2023 MOI Beauty. All Rights Reserved</p>
-            <small>Author: Group 19 Tuesday - CNPM</small>
+            <small>Author: Group 19 Tuesday</small>
             </div>
         </div>
 
