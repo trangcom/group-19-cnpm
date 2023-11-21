@@ -1,20 +1,14 @@
 
 import React from 'react' 
-import '.Item.css'
-
-const Item = (props) =>{
+import './Breadcrum.css'
+import arrow_icon from '../Assets/breadcrum_arrow.png'
+const Breadcrum = (props) => {
+   const {product}= props;
     return (
-        <div className = 'item'>
-            <Link to={'/product/${props.id}'}><img src={props.image} alt="" /></Link>
-            <p>{props.name}</p>
-            <div className="item-prices">
-                <div className="item-price-new">
-                    ${props.new_price}
-                </div>
-                <div className="item-price-old">
-                    ${props.old_price}
-                </div>
-            </div>
+        <div className = 'breadcrum'>
+            HOME <img src={arrow_icon} alt="" /> SHOP <img src={arrow_icon}alt="" />{product.category} <img src={arrow_icon} alt="" />{product.name}
         </div>
     )
 }
+
+export default <></>
