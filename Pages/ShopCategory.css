@@ -1,0 +1,23 @@
+.Shopcategory-banner{
+     display: block;
+     margin: 30px auto;
+     width: 82%;
+}
+.Shopcategory-indexSort {
+     display: flex;
+     margin: 0px  170px;
+     justify-content: space-between;
+     align-items: center;
+}
+.Shopcategory-sort{
+     display: 10px  20px;
+     border-radius: 40px;
+     border: 1px #888;
+}
+.Shopcategory-products {
+     margin: 20px  170px;
+     display: girdl;
+     girld-template-columns:  1fr 1fr 1fr 1fr;
+     row-gap: 80px;
+  
+     
